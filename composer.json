@@ -1,0 +1,21 @@
+{
+  "name": "berni69/libbeat",
+  "description": "Use this library to build a beats in PHP, implements lumberjeck 2 protocol. Supports compression and TLS",
+  "keywords": [
+    "beats",
+    "php"
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.0.0",
+    "monolog/monolog": "^1.24",
+    "ext-sockets": "*",
+    "ext-json": "*",
+    "ext-zlib": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "libbeat\\": "src/"
+    }
+  }
+}
